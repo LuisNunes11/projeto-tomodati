@@ -604,10 +604,11 @@ article .artigo-1 h2{
 .artigo-cardapio ul li{
     display: flex;
     flex-wrap: wrap;
+    margin: 2px 0px 2px 0px;
 }
 .artigo-cardapio ul li img{
     justify-content: center;
-    width: 178px;
+    width: 170px;
     height: 110px;
     margin:0;
     border: 4px solid rgba(0, 0, 0, 0.783);
@@ -622,18 +623,17 @@ article .artigo-1 h2{
 .variavel{
     display: flex;
     flex-direction: row;
-    margin: 0% 5% 0% 3%;
+    margin: 0% 0% 0% 3%;
 }
 .card{
     width:auto;
     height: auto;
-    
 }
 .tipos{
     display: flex;
     flex-direction: column;
     text-align: center;
-
+    margin-left: 7px;
     font-size: 14px;
     width: 129px;
     margin-top: 20px;
